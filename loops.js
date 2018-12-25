@@ -4,34 +4,38 @@ const orders = [500, 30, 99, 15, 223];
 
 'Bad Loop Code 💩'
 
-const total = 0;
-const withTax = [];
-const highValue = [];
+var total = 0;
+var withTax = [];
+var highValue = [];
+
+console.time('bad-loop')
 for (i = 0; i < orders.length; i++) { 
 
     // Reduce
     total += orders[i];
 
     // Map
-    withTax.push(orders[i] * 1.1);
+    withTax.push(orders[i] * 1.07);
 
     // Filter
     if (orders[i] > 100) {
         highValue.push(orders[i])
     }
 }
+console.timeEnd('bad-loop')
 
 
+console.time('good-loop')
 'Good Loop Code ✅'
-
 // Reduce
-const total = orders.reduce((acc, cur) => acc + cur)
+var total = orders.reduce((acc, cur) => acc + cur)
 
 // Map
-const withTax = orders.map(v => v * 1.1)
+var withTax = orders.map(v => v * 1.1)
 
 // Filter
-const highValue = orders.filter(v => v > 100);
+var highValue = orders.filter(v => v > 100);
+console.timeEnd('good-loop')
 
 /**
  * Every

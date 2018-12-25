@@ -14,8 +14,6 @@ console.log(baz);
 'Good Code ✅'
 
 // Computed Property Names
-
-console.log('%c My Friends', 'color: orange; font-weight: bold;' )
 console.log({ foo, bar, baz });
 
 // Console.table(...)

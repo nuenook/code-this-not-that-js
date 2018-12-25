@@ -8,7 +8,6 @@ const turtle = {
 }
 
 'Bad Code 💩'
-
 function feed(animal) {
     return `Feed ${animal.name} ${animal.meal} kilos of ${animal.diet}`;
 }
