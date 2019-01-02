@@ -1,4 +1,4 @@
-# Modren - JavaScript ปรับวิธีเขียน avascript ใหม่ให้กระชับขึ้น
+# Modren - JavaScript ปรับวิธีเขียน javascript ให้กระชับขึ้น
 
 ### console log แบบ คูล ๆ [link](console-log.js)
 
