@@ -19,6 +19,8 @@ console.log({ foo, bar, baz });
 // Console.table(...)
 console.table([foo, bar, baz])
 
+// CSS Styling
+console.log("%cSTOP! %cGreen" , "color: red; font-size:35px;", "color: green; font-size:12px;")
 
 // // Console.time
 console.time('looper')

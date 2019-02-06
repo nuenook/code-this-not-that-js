@@ -1,16 +1,14 @@
 # Modren - JavaScript ปรับวิธีเขียน javascript ให้กระชับขึ้น
 
-### console log แบบ คูล ๆ [link](console-log.js)
+### console log [link](console-log.js)
 
-### destructuring ลดการเขียนโค้ดซ้ำ ๆ [link](destructuring.js)
+### destructuring [link](destructuring.js)
 
-### loops ปรับ loop ให้เล็กสั้นและเร็ว [link](loops.js)
+### loops to loop [link](loops.js)
 
-### spread array วิธีการ assign item ใส่ array รูปแบบใหม่ [link](spread-syntax.js)
+### spread array [link](spread-syntax.js)
 
-### ปรับ params function แบบ spread [link](rest-params.js)
-
-### handle หลาย promises ด้วย async  [link](async-await.js)
+### handle promises with async [link](async-await.js)
 
 
 
